@@ -3,14 +3,14 @@
 # Created on: Mar. 31, 2022
 # This program asks the user for the length
 # width and height to calculate surface area
-# and volume of a rectanglar prism a rating
+# and volume of a rectangular prism a rating
 # system
 
 
 def main():
     # input
     print("This program will calculate the surface area")
-    print("and volume of a rectanglar prisim")
+    print("and volume of a rectangular prism")
     print("")
     print("please enter the length below")
     length = float(input("Enter the length (cm): "))
@@ -28,7 +28,7 @@ def main():
     # output
     print("")
     print("Volume = {:.2f} cm".format(volume))
-    print("Surface Area = {:.2f} cm".format(surface_area))
+    print("Surface Area = {:.2f} cm^2".format(surface_area))
     print("")
 
     # rating system
@@ -38,7 +38,7 @@ def main():
         print("thank you for the high rating!")
     else:
         print("")
-        print("thank you using the program anyway!")
+        print("thank you for using the program anyway!")
 
 
 if __name__ == "__main__":
